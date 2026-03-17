@@ -1,16 +1,10 @@
 # requirements.txt
-streamlit==1.28.0
-opencv-python-headless==4.8.1.78
-torch==2.0.1
-torchvision==0.15.2
-pillow==10.0.1
-pandas==2.0.3
-numpy==1.24.3
-pyserial==3.5
-tqdm==4.66.1
-pyyaml==6.0.1
-matplotlib==3.7.2
-rich==13.5.2
-markdown-it-py==3.0.0
-pygments==2.16.1
-mdurl==0.1.2
+streamlit
+opencv-python
+opencv-python-headless
+torch
+torchvision
+pillow
+pandas
+numpy
+pyserial
