@@ -1,22 +1,16 @@
-# Core dependencies
+# requirements.txt
 streamlit==1.28.0
-opencv-python==4.8.1.78
-numpy==1.24.3
-pandas==2.0.3
-Pillow==10.0.0
-
-# PyTorch (CPU version - change to CUDA if you have GPU)
+opencv-python-headless==4.8.1.78
 torch==2.0.1
 torchvision==0.15.2
-
-# Arduino serial communication
+pillow==10.0.1
+pandas==2.0.3
+numpy==1.24.3
 pyserial==3.5
-
-# YOLOv5 dependencies
-matplotlib>=3.2.2
-seaborn>=0.11.0
-PyYAML>=5.3.1
-tqdm>=4.64.0
-
-# Optional but recommended
-protobuf<=3.20.1  # For YOLOv5 compatibility
+tqdm==4.66.1
+pyyaml==6.0.1
+matplotlib==3.7.2
+rich==13.5.2
+markdown-it-py==3.0.0
+pygments==2.16.1
+mdurl==0.1.2
