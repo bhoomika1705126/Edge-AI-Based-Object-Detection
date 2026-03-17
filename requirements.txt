@@ -1,7 +1,6 @@
 # requirements.txt
 streamlit
-opencv-python
-opencv-python-headless
+opencv-python-headless  # 👈 Use this instead of opencv-python
 torch
 torchvision
 pillow
